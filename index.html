@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./music (2).png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+    <title>Musico</title>
+</head>
+
+<body>
+    <div id="main">
+        <div class="upper_section">
+            <nav id="Nav" class="navbar">
+                <img src="./music (2).png"  alt="icone">
+                <h1 style="font-family: 'East Sea Dokdo', cursive;font-size: 30px;">Musico</h1>
+                <div class="content">
+                    <input type="text" placeholder="Fillter" id="fix" class="filletr">
+                    <div class="icon">
+                        <a href="./search.html"><i id="re"class="fa-solid fa-magnifying-glass"></i></a>
+                     
+                    </div>
+                </div>
+            </nav>
+            <div id="bl12" class="upper_info">
+            <ul class="list_of_topic">
+                <li id="stop">All</li>
+                <li>Top 20 track</li>
+                <li>New Release</li>
+            </ul>
+            </div>
+        </div>
+        <div id="red2" class="middel_section">
+            <div  class="top_10_album box">
+                <h1 id="uniq" class="h11">Top 20 Track</h1>
+                <div id="first" class="data">
+
+                  
+
+                </div>
+            </div>
+            <div class="new_release box">
+                <h1 id="uniq" class="h11">New Release</h1>
+                <div id="mid1" class="data">
+                   
+                </div>
+            </div>
+           <!-- <div class="search-items">
+              
+           </div> -->
+           
+        </div>
+        <div id="set4" class="lower_section">
+            <audio controls  src=""   class="audio"></audio>
+
+            <div class="make_fancy_tacke_bar">
+                <div>
+                    <img id="poster"src="./deflat.png" alt="img">
+
+                    <h3 id="name1">choose</h3>
+                </div>
+                <div>
+                    <nav class="icone">
+                        <i class="fa-solid fa-shuffle"></i>
+                        <i class="fas fa-backward"></i>
+                        <section class="play">
+                            <i id="paly" class="fas fa-play"></i>
+                            <i id="poused" class="fa-solid fa-pause"></i>
+                        </section>
+                        <i class="fas fa-forward"></i>
+
+                    </nav>
+                    <nav id="val1" class="range_set">
+                        <p id="po">00:00</p>
+                        <input class="range" value="0"  min="0"  type="range">
+                        <p class="pp rest1">--:--</p>
+                    </nav>
+                </div>
+                <div>
+                    <i class="fas fa-volume-up"></i>
+                    <input id="vol" type="range" value="10"  min="0" max="10">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./App.js"></script>
+</body>
+
+</html>

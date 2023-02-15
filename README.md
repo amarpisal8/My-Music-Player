@@ -1,2 +1,1 @@
-# My-Music-Player
-Napster Id
+# html-css-js-project-boilerplate
